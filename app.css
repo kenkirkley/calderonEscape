@@ -16,25 +16,33 @@ html, body {
     margin-top: 0px;
 }
 
-.topnav {
-    height: 40px;
-    background-color: grey;
-    padding: 0 10%;
+.main-footer, .mini-header{
+    height:40px;
+    background: #111;
+    color: #999;
+    text-align: center;
 }
 
-.Rtext {
-    font-size: 8px;
+.footText {
+    font-size: 12px;
     line-height: 20px;
     display: inline-block;
-    margin-bottom: 7px;
-    margin-top: 7px;
+    margin-top: 10px;
     margin-right: 20px;
 }
 
-.Ltext{
-    font-size: 8px;
-    display: inline-block;
-    margin-left: 720px;
+.leftText{
+    float: left;
+    margin-left: 10%;
+}
+
+.middleText{
+    float: left;
+}
+
+.rightText{
+    float: right;
+    margin-right: 10%;
 }
 
 .TextP{
@@ -57,7 +65,7 @@ html, body {
     overflow: none;
     background: url('WebPics/Logo.png') no-repeat center/cover;
     position:absolute;
-    top:10px;
+    top:50px;
     left:0px;
     margin-left: 40px;
     border-radius: 50px;
