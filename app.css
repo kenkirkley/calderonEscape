@@ -4,7 +4,6 @@ body {
     border: 0;
     font-size: 100%;
     font-family: verdana;
-
 }
 
 html, body {
@@ -30,6 +29,9 @@ html, body {
     margin-top: 10px;
     margin-right: 20px;
 }
+.footIcon{
+    font-size: 16px;
+}
 
 .leftText{
     float: left;
@@ -40,9 +42,12 @@ html, body {
     float: left;
 }
 
-.rightText{
+.rightTextEnd{
     float: right;
     margin-right: 10%;
+}
+.rightText{
+    float:right;
 }
 
 .TextP{
@@ -90,16 +95,18 @@ nav ul {
 nav li {
     display: inline-block;
     height:120px;
+    padding: 0px 5px;
 }
 nav li:last-child{
     padding-right: 130px;
 }
+
 nav a {
     display: inline-block;
-    width: 100px;
+    width: 100%;
     text-align: center;
     text-decoration: none;
-    padding: 50px 0px;
+    padding: 50px 5px;
     color: #333;
     text-transform: uppercase;
     text-decoration: none;
@@ -110,6 +117,9 @@ nav a:hover {
 }
 nav a#openup {
     display: none;
+}
+nav li:last-child a{
+    width: 120px;
 }
 .dropdown {
     display: initial;
@@ -253,7 +263,7 @@ nav a#openup {
     width: 70px;
     left: 50%;
     margin-left: -24px;
-    bottom: 13%;
+    bottom: 9%;
 
 }
 
